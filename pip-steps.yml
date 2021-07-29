@@ -1,0 +1,8 @@
+pipelines:
+ - name: pipeline_1
+   steps:
+     - name: step_1
+       type: Bash
+       configuration:
+         inputResources:
+           - name: myAppRepo
