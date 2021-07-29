@@ -1,6 +1,7 @@
 resources:
    - name: myAppRepo1
      type: GitRepo
-     configuration: { }
+     configuration:
+      xyv: poe
      
        
