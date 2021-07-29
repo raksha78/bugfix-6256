@@ -45,4 +45,4 @@ pipelines:
               trigger: false
         execution:
           onExecute:
-            - Write-Output "test"
+            - echo "test"
