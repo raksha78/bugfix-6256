@@ -32,11 +32,17 @@ pipelines:
         configuration:
           inputResources:
             - name: S_WF_6544_001_resource_1
+              trigger: false
             - name: S_WF_6544_001_resource_2
+              trigger: false
             - name: S_WF_6544_001_resource_3
+              trigger: false
             - name: S_WF_6544_001_resource_4
+              trigger: false
             - name: S_WF_6544_001_resource_5
+              trigger: false
             - name: S_WF_6544_001_resource_6
+              trigger: false
         execution:
           onExecute:
-            - echo "hi"
+            - Write-Output "test"
