@@ -1,5 +1,5 @@
 resources:
-   - name: "myAppRepoall}"
+   - name: "myAppRepoallok"
      type: "GitRepo"
      configuration:
        gitProvider: raksha78_github            
