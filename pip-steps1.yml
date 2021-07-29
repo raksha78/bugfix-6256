@@ -1,0 +1,11 @@
+pipelines:
+ - name: pipeline_2
+   steps:
+     - name: step_2
+       type: Bash
+       configuration:
+         inputResources:
+           - name: myAppRepo
+       execution:
+         onExecute:
+           - echo $MY_MESSAGE
