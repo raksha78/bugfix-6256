@@ -6,3 +6,6 @@ pipelines:
        configuration:
          inputResources:
            - name: myAppRepo
+       execution:
+         onExecute:
+           - echo $MY_MESSAGE
