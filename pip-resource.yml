@@ -1,6 +1,9 @@
 resources:
-   - name: myAppRepo
-     type: 'GitRepo'
+   - name: mygitrepo1
+     type: "GitRepo"
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bugfix-6256
      
      
        
