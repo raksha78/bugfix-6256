@@ -39,4 +39,4 @@ pipelines:
             - name: S_WF_6544_001_resource_6
         execution:
           onExecute:
-            - Write-Output "test"
+            - echo "hi"
