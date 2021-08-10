@@ -3,8 +3,8 @@ pipelines:
    steps:
      - name: step_1
        type: Bash
-       configuration:
-         inputResources:
+#        configuration:
+#          inputResources:
 #            - name: "myAppRepoallok1"
 #            - name: "myAppRepoallok2"
        execution:
