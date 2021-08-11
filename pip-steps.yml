@@ -6,7 +6,6 @@ pipelines:
        configuration:
          inputResources:
            - name: "myAppRepoallok1"
-           - name: "myAppRepoallok3"
        execution:
          onExecute:
            - echo $MY_MESSAGE
