@@ -3,17 +3,17 @@ pipelines:
    steps:
      - name: step_1
        type: Bash
-       configuration:
-         inputResources:
-           - name: "myAppRepoallok6"
-           - name: "myAppRepoallok6"
-           - name: "myAppRepoallok6"
-           - name: "myAppRepoallok6"
-           - name: "myAppRepoallok6"
-           - name: "myAppRepoallok6"
-           - name: "myAppRepoallok6"
-           - name: "myAppRepoallok6"
-           - name: "myAppRepoallok6"
+#        configuration:
+#          inputResources:
+#            - name: "myAppRepoallok6"
+#            - name: "myAppRepoallok6"
+#            - name: "myAppRepoallok6"
+#            - name: "myAppRepoallok6"
+#            - name: "myAppRepoallok6"
+#            - name: "myAppRepoallok6"
+#            - name: "myAppRepoallok6"
+#            - name: "myAppRepoallok6"
+#            - name: "myAppRepoallok6"
        execution:
          onExecute:
            - echo $MY_MESSAGE
