@@ -5,15 +5,15 @@ pipelines:
        type: Bash
        configuration:
          inputResources:
-           - name: "myAppRepoallok1"
-           - name: "myAppRepoallok1"
-           - name: "myAppRepoallok1"
-           - name: "myAppRepoallok1"
-           - name: "myAppRepoallok1"
-           - name: "myAppRepoallok1"
-           - name: "myAppRepoallok1"
-           - name: "myAppRepoallok1"
-           - name: "myAppRepoallok1"
+           - name: "myAppRepoallok6"
+           - name: "myAppRepoallok6"
+           - name: "myAppRepoallok6"
+           - name: "myAppRepoallok6"
+           - name: "myAppRepoallok6"
+           - name: "myAppRepoallok6"
+           - name: "myAppRepoallok6"
+           - name: "myAppRepoallok6"
+           - name: "myAppRepoallok6"
        execution:
          onExecute:
            - echo $MY_MESSAGE
