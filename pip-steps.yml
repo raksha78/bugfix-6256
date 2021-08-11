@@ -9,6 +9,7 @@ pipelines:
            - name: "myAppRepoallok1"
            - name: "myAppRepoallok1"
            - name: "myAppRepoallok1"
+           - name: "myAppRepoallok1"
        execution:
          onExecute:
            - echo $MY_MESSAGE
