@@ -5,8 +5,8 @@ pipelines:
        type: Bash
        configuration:
          inputResources:
-           - name: "myAppRepoallok1"
-           - name: "myAppRepoallok1"
+           - name: "myAppRepoallok11"
+           - name: "myAppRepoallok11"
        execution:
          onExecute:
            - echo $MY_MESSAGE
