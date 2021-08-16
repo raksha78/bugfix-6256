@@ -1,6 +1,6 @@
 resources:
    - name: "myAppRepoallok1"
-     type: GitRepo
+     type: PropertyBag
      configuration:
        gitProvider: raksha78_github            
        path: raksha78/bugfix-6256
