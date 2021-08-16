@@ -1,10 +1,10 @@
 resources:
-   - name: "myAppRepoallok1"
+   - name: "myAppRepoallok11"
      type: PropertyBag
      configuration:
        gitProvider: raksha78_github            
        path: raksha78/bugfix-6256
-   - name: "myAppRepoallok6"
+   - name: "myAppRepoallok11"
      type: PropertyBag
      configuration:
        gitProvider: raksha78_github            
