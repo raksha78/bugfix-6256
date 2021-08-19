@@ -1,14 +1,14 @@
 resources:
-   - name: "myAppRepoallok11"
-     type: GitRepo
-     configuration:
-       gitProvider: raksha78_github            
-       path: raksha78/bugfix-6256
-#    - name: "myAppRepoallok6"
+#    - name: "myAppRepoallok11"
 #      type: GitRepo
 #      configuration:
 #        gitProvider: raksha78_github            
 #        path: raksha78/bugfix-6256
+   - name: "myAppRepoallok6"
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bugfix-6256
 #    - name: "myAppRepoallok4"
 #      type: "GitRepo"
 #      configuration:
