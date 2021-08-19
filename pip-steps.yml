@@ -3,10 +3,10 @@ pipelines:
    steps:
      - name: step_1
        type: Bash
-       configuration:
-         inputResources:
-           - name: "myAppRepoallok11"
-           - name: "myAppRepoallok11"
+#        configuration:
+#          inputResources:
+#            - name: "myAppRepoallok11"
+#            - name: "myAppRepoallok11"
        execution:
          onExecute:
            - echo $MY_MESSAGE
