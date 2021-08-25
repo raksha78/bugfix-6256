@@ -1,44 +1,44 @@
-resources:
-   - name: "myAppRepoallok11"
-     type: PropertyBag
-     configuration:
-       gitProvider: raksha78_github            
-       path: raksha78/bugfix-6256
-   - name: "myAppRepoallok41"
-     type: PropertyBag
-     configuration:
-       gitProvider: raksha78_github            
-       path: raksha78/bugfix-6256
-   - name: "myAppRepoallok43"
-     type: GitRepo
-     configuration:
-       gitProvider: raksha78_github            
-       path: raksha78/bugfix-6256
-   - name: "myAppRepoallok42"
-     type: "GitRepo"
-     configuration:
-       gitProvider: raksha78_github            
-       path: raksha78/bugfix-6256
-   - name: "myAppRepoallok5"
-     type: "GitRepo"
-     configuration:
-       gitProvider: raksha78_github            
-       path: raksha78/bugfix-6256
-   - name: "myAppRepoallok6"
-     type: "GitRepo"
-     configuration:
-       gitProvider: raksha78_github            
-       path: raksha78/bugfix-6256
-   - name: "myAppRepoallok7"
-     type: "GitRepo"
-     configuration:
-       gitProvider: raksha78_github            
-       path: raksha78/bugfix-6256
-   - name: "myAppRepoallok8"
-     type: "GitRepo"
-     configuration:
-       gitProvider: raksha78_github            
-       path: raksha78/bugfix-6256
+# resources:
+#    - name: "myAppRepoallok11"
+#      type: PropertyBag
+#      configuration:
+#        gitProvider: raksha78_github            
+#        path: raksha78/bugfix-6256
+#    - name: "myAppRepoallok41"
+#      type: PropertyBag
+#      configuration:
+#        gitProvider: raksha78_github            
+#        path: raksha78/bugfix-6256
+#    - name: "myAppRepoallok43"
+#      type: GitRepo
+#      configuration:
+#        gitProvider: raksha78_github            
+#        path: raksha78/bugfix-6256
+#    - name: "myAppRepoallok42"
+#      type: "GitRepo"
+#      configuration:
+#        gitProvider: raksha78_github            
+#        path: raksha78/bugfix-6256
+#    - name: "myAppRepoallok5"
+#      type: "GitRepo"
+#      configuration:
+#        gitProvider: raksha78_github            
+#        path: raksha78/bugfix-6256
+#    - name: "myAppRepoallok6"
+#      type: "GitRepo"
+#      configuration:
+#        gitProvider: raksha78_github            
+#        path: raksha78/bugfix-6256
+#    - name: "myAppRepoallok7"
+#      type: "GitRepo"
+#      configuration:
+#        gitProvider: raksha78_github            
+#        path: raksha78/bugfix-6256
+#    - name: "myAppRepoallok8"
+#      type: "GitRepo"
+#      configuration:
+#        gitProvider: raksha78_github            
+#        path: raksha78/bugfix-6256
      
      
        
