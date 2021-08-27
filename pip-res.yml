@@ -3,4 +3,4 @@ resources:
      type: GitRepo
      configuration:
        gitProvider: raksha78_bbs            
-       path: rakshithagr/pipelinestest
+       path: ~RAKSHITHAGR/pipelinestest
