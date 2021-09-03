@@ -9,7 +9,7 @@ pipelines:
       - name: my_step
         type: Bash
         configuration:
-          timeoutSeconds: 30
+          timeoutSeconds: 60
           inputSteps:
             - name: my_main_step
           inputResources:
@@ -520,7 +520,7 @@ pipelines:
         execution:
           onExecute:
             - echo "This is my step."
-            - sleep 1m
+            - sleep 2m
       - name: my_step_7
         type: Bash
         configuration:
@@ -556,42 +556,42 @@ pipelines:
       - name: my_step_3q
         type: Bash
         configuration:
-          timeoutSeconds: 30
+          timeoutSeconds: 60
           inputSteps:
             - name: my_main_step
         execution:
           onExecute:
             - echo "This is my step."
-            - sleep 1m
+            - sleep 2m
       - name: my_step_4
         type: Bash
         configuration:
-          timeoutSeconds: 30
+          timeoutSeconds: 60
           inputSteps:
             - name: my_main_step
         execution:
           onExecute:
             - echo "This is my step."
-            - sleep 1m
+            - sleep 2m
 
       - name: my_step_5
         type: Bash
         configuration:
-          timeoutSeconds: 30
+          timeoutSeconds: 60
           inputSteps:
             - name: my_main_step
         execution:
           onExecute:
             - echo "This is my step."
-            - sleep 1m
+            - sleep 2m
 
       - name: my_step_6
         type: Bash
         configuration:
-          timeoutSeconds: 30
+          timeoutSeconds: 60
           inputSteps:
             - name: my_main_step
         execution:
           onExecute:
             - echo "This is my step."
-            - sleep 1m
+            - sleep 2m
